@@ -312,10 +312,11 @@ Both are supported. Plex Desktop has faster audio switching (nearly instant) but
 
 ### 1. Copy files
 
-Navigate to `%LOCALAPPDATA%\Plex HTPC\` (or `%LOCALAPPDATA%\Plex\` for Plex Desktop).
+Click the Windows Button, type 'Run' and open it
+Copy this path `%LOCALAPPDATA%\Plex HTPC\` (or `%LOCALAPPDATA%\Plex\` for Plex Desktop) and paste it into the run's text box, then click enter.. it will take you to your plex installation
 
 Copy the entire directory structure:
-
+Copy the mpv.conf,input.conf,and shaders folder here. Open the scripts folder next and paste the plex-profile-manager.lua there and you will be good to go.
 ```
 Plex HTPC\
 ├── mpv.conf
